@@ -72,6 +72,7 @@ ACLARACIÓN CSV:
 ![alt text](image-6.png)
 La carga se realiza de la siguiente manera:
 En body seleccionaremos form-data y debermos enviar la Key=file y en Value={{archivo csv}}
+
 ![alt text](image-7.png)
 
 Al seleccionar importar desde archivo podemos acceder a la carpeta en el repo que contiene archivos de prueba:

@@ -65,6 +65,7 @@ public class GlobalExceptionHandler {
                 ErrorResponse.create(400, "Validation Error", "Datos inválidos", req.getRequestURI(), details)
         );
     }
+    
 
     // 400: validación de parámetros PathVariable/RequestParam
     @ExceptionHandler(ConstraintViolationException.class)

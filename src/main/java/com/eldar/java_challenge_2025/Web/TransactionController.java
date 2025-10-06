@@ -39,7 +39,6 @@ public class TransactionController {
         boolean procesed = transactionService.isDuplicate(transactionId);
         String message = procesed ? "La transacción " + transactionId + " ya fue procesada."
                                     : "La transacción " + transactionId + " no fue procesada.";
-
         return ResponseEntity.ok(new DuplicateCheckDTO(transactionId, procesed, message));
     }
 

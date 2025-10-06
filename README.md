@@ -66,13 +66,6 @@ mvn spring-boot:run
 
 -Seleccionar el json llamado JavaEldar.postman_collection.json
 ![alt text](image-4.png)
-
-Requisitos del challenge:
-● Balance por cuenta: dado un accountId, obtener el balance final.
-● Top 10 cuentas: listar las 10 cuentas con mayor número de transacciones
-procesadas.
-● Detección de duplicados: dado un transactionId, verificar si ya fue procesado.
-
 ![alt text](image-5.png)
 
 ACLARACIÓN CSV:
